@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Software, database, IoT, electronics, and academic projects by Fahim Hassan.">
+  <title>Projects | Fahim Hassan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script>document.documentElement.dataset.theme=localStorage.getItem("portfolio-theme")||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");</script>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="index.html"><span class="logo-mark">FH</span><span class="logo-text">Fahim Hassan</span></a>
+      <ul class="nav-menu">
+        <li><a class="nav-link" href="index.html">Home</a></li>
+        <li><a class="nav-link" href="education-card.html">Education</a></li>
+        <li><a class="nav-link" href="projects.html">Projects</a></li>
+        <li><a class="nav-link" href="achievements.html">Achievements</a></li>
+        <li><a class="nav-link" href="index.html#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="icon-button theme-toggle" type="button" aria-label="Switch theme">☾</button>
+        <a class="btn btn-primary btn-small desktop-hire" href="https://www.linkedin.com/in/fahim-hassan-341258252/" target="_blank" rel="noopener noreferrer">Hire Me</a>
+        <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="page-hero">
+      <div class="container reveal">
+        <span class="eyebrow">Portfolio projects</span>
+        <h1>Things I have <span class="gradient-text">built</span></h1>
+        <p>Filter the collection to explore my software, database, IoT, research, and electronics projects.</p>
+      </div>
+    </section>
+
+    <section class="section compact">
+      <div class="container">
+        <div class="filter-bar reveal" role="group" aria-label="Filter projects">
+          <button class="filter-button active" type="button" data-filter="all">All</button>
+          <button class="filter-button" type="button" data-filter="software">Software</button>
+          <button class="filter-button" type="button" data-filter="database">Database</button>
+          <button class="filter-button" type="button" data-filter="iot">IoT & Research</button>
+          <button class="filter-button" type="button" data-filter="electronics">Electronics</button>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal" data-category="software database">
+            <div class="project-media">
+              <iframe src="https://www.youtube.com/embed/nzCmKq_pQ4o?si=BsQ_kcHXMFp4Z0mX" title="Fresh Farm Shop Management System demonstration" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="project-body">
+              <h3>Fresh Farm Shop Management System</h3>
+              <p>A desktop shop management system with secure Admin and Manager roles, inventory control, customer sales, billing, invoices, and database-backed reporting.</p>
+              <div class="tag-list"><span class="tag">C#</span><span class="tag">.NET</span><span class="tag">SQL</span><span class="tag">Role-based Access</span></div>
+              <div class="project-actions"><a class="btn btn-primary btn-small" href="https://github.com/FaahimHassan/AgroFarm.git" target="_blank" rel="noopener noreferrer">GitHub Repository</a></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="software database">
+            <div class="project-media">
+              <iframe src="https://www.youtube.com/embed/OKFYnE_keW0?si=MbMG-hnbupESszqy" title="Coffee Shop Management System demonstration" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="project-body">
+              <h3>Coffee Shop Management System</h3>
+              <p>A Java desktop application with registration, login, menu browsing, shopping cart, promo codes, digital payments, admin price control, and token-based order confirmation.</p>
+              <div class="tag-list"><span class="tag">Java</span><span class="tag">Swing</span><span class="tag">JDBC</span><span class="tag">OOP</span></div>
+              <div class="project-actions"><a class="btn btn-primary btn-small" href="https://github.com/FaahimHassan/CaffaCoffee.git" target="_blank" rel="noopener noreferrer">GitHub Repository</a></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="software">
+            <div class="project-media"><img src="images/Softwere_project.png" alt="Enhanced e-ticket and travel management system" loading="lazy"></div>
+            <div class="project-body">
+              <h3>Integrated Travel Management System</h3>
+              <p>A unified system concept for bus, train, air ticket, and hotel booking with seat availability, payment, confirmation, and service-provider dashboards. The project followed Agile Scrum.</p>
+              <div class="tag-list"><span class="tag">Software Engineering</span><span class="tag">Agile Scrum</span><span class="tag">System Design</span></div>
+              <div class="project-actions"><a class="btn btn-primary btn-small" href="softwere_project.html">View Report</a></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="database software">
+            <div class="project-media"><img src="images/oracle-database-logo.png" alt="Oracle database logo" loading="lazy"></div>
+            <div class="project-body">
+              <h3>Coffee Shop Database System</h3>
+              <p>A relational database project covering customer registration, menu products, orders, digital payments, normalization, ER design, SQL queries, and JDBC integration.</p>
+              <div class="tag-list"><span class="tag">Oracle SQL</span><span class="tag">MySQL</span><span class="tag">ERD</span><span class="tag">Normalization</span></div>
+              <div class="project-actions"><a class="btn btn-primary btn-small" href="https://github.com/FaahimHassan/Database-Report.git" target="_blank" rel="noopener noreferrer">GitHub Repository</a></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="electronics">
+            <div class="project-media"><img src="images/Laser_light.png" alt="Laser light security circuit" loading="lazy"></div>
+            <div class="project-body">
+              <h3>Laser Light Security System</h3>
+              <p>A low-cost electronic security system using a laser beam, LDR sensor, transistor, LED, and buzzer. Interrupting the beam activates the alarm.</p>
+              <div class="tag-list"><span class="tag">LDR</span><span class="tag">Circuit Design</span><span class="tag">Security</span></div>
+              <div class="project-actions"><a class="btn btn-primary btn-small" href="laser_light.html">View Report</a></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="electronics">
+            <div class="project-media"><img src="images/rainDetector.jpg" alt="Rain detector and alarm circuit" loading="lazy"></div>
+            <div class="project-body">
+              <h3>Rain Detector and Alarm</h3>
+              <p>A digital logic-based rain detection circuit using a conductive sensor plate and 555 Timer IC to activate an LED and buzzer when rain is detected.</p>
+              <div class="tag-list"><span class="tag">555 Timer</span><span class="tag">Sensor</span><span class="tag">Digital Logic</span></div>
+              <div class="project-actions"><a class="btn btn-primary btn-small" href="rain_detector.html">View Report</a></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="iot electronics">
+            <div class="project-media"><img src="images/MicroProject.png" alt="Smart aquaculture monitoring hardware" loading="lazy"></div>
+            <div class="project-body">
+              <h3>Smart Aquaculture Monitoring System</h3>
+              <p>An ESP32-based system using pH, TDS, turbidity, temperature, humidity, and gas sensors to monitor fish farming conditions with multi-layer validation for reliable readings.</p>
+              <div class="tag-list"><span class="tag">ESP32</span><span class="tag">IoT</span><span class="tag">Sensors</span><span class="tag">Validation</span></div>
+              <div class="project-actions"><a class="btn btn-primary btn-small" href="https://youtu.be/hT_VcO5adfo" target="_blank" rel="noopener noreferrer">Watch Demo</a></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="iot">
+            <div class="project-media"><img src="images/IEEE_papaer.png" alt="Fish Farm Pro research paper" loading="lazy"></div>
+            <div class="project-body">
+              <h3>Fish Farm Pro Research</h3>
+              <p>Research on sustainable vertical aquaculture practices for improving fish farming productivity in Bangladesh, accepted at IEEE QPAIN 2026 with minor revisions.</p>
+              <div class="tag-list"><span class="tag">Research</span><span class="tag">Aquaculture</span><span class="tag">IEEE</span></div>
+              <div class="project-actions"><a class="btn btn-secondary btn-small" href="achievements.html">View Achievement</a></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© <span data-current-year></span> Fahim Hassan. Built with HTML, CSS, and JavaScript.</p>
+      <div class="social-links">
+        <a class="social-link" href="https://www.linkedin.com/in/fahim-hassan-341258252/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><img src="images/icons/linkedin.png" alt=""></a>
+        <a class="social-link" href="https://github.com/FaahimHassan" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><img src="images/icons/github.png" alt=""></a>
+      </div>
+    </div>
+  </footer>
+  <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+  <script src="js/script.js" defer></script>
+</body>
+</html>
